@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Dear Ella.</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    var Name = prompt("Please Enter Your Name");
+    
+    if(Name == "" || Name == null) {
+    alert("Please Enter Your Name.");
+    } else {
+    alert("Hi " + Name + ", Please read my confession."); 
+    }
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> Hey Crush,You're so Gorgeous!</h1>
+<img src="https://c.tenor.com/sZPWbZj_QI8AAAAi/kakaotalk-emoticon.gif" height="200" />
+<h1 style="#">Don't you think?</h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" YES " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" NO " onMouseOver="f()" />
+</div>
+<br>
+<br>
+<br>
+<a href="Confession.html"><button>Next Page</button>
+</a>
+<audio controls autoplay loop>
+<source src="" type="audio/mpeg">
+Your browser does not support audio tag
+</audio>
+</body>
+</html>
